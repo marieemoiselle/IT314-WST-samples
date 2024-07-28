@@ -1,6 +1,7 @@
 # WEB SYSTEMS AND TECHNOLOGIES
 by: **Fatima Marie P. Agdon, MSCS** <br>
-Note: This is still ongoing, and will have updates as the course progresses.
+Note: This is still ongoing, and will have updates as the course progresses.<br>
+Don't forget to give this a ⭐!
 
 # 👋🏻 Greetings!
 Welcome to the **IT 314: Web Systems and Technologies** course! 🌐🧡💙💛<br>
