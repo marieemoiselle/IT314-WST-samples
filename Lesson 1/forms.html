@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            legend{
+                font-weight: 600;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for = "firstname">First name: </label>
+                <input type = "text" name = "firstname">
+                <br/><br/>
+                <label for = "lastname">Last name: </label>
+                <input type = "text" name = "lastname">
+                <br/><br/>
+                <label for = "birthday">Date of birth:</label>
+                <input type = "date" id = "birthday">
+                <br/><br/>
+                <label for = "email">Email address: </label>
+                <input type = "email" id = "email">
+                <br/><br/>
+                <label for = "pfp">Your profile photo: </label>
+                <input type = "file" name = "file">
+            </fieldset>
+            <br/>
+            <fieldset>
+            <legend>Academic Details</legend>
+            <label for = "program">Program: </label>
+            <select id = "programs">
+                <optgroup label = "CICS - Undergraduate Programs">
+                    <option value = "bscs">BS Computer Science</option>
+                    <option value = "bsit">BS Information Technology</option>
+                </optgroup>
+                <optgroup label = "CICS - Graduate Programs">
+                    <option value = "mscs">MS Computer Science</option>
+                    <option value = "msit">MS Information Technology</option>
+                    <option value = "msds">MS Data Science</option>
+                </optgroup>
+            </select>
+            <br/><br/>
+            <label for = "yrlvl">Year level:</label>
+            <input type = "radio" id="first" name = "yrlvl" value = "First">
+            <label for = "first">First</label>
+            <input type = "radio" id="second" name = "yrlvl" value = "Second">
+            <label for = "second">Second</label>
+            <input type = "radio" id="third" name = "yrlvl" value = "Third">
+            <label for = "third">Third</label>
+            <input type = "radio" id="fourth" name = "yrlvl" value = "Fourth">
+            <label for = "fourth">Fourth</label>
+        </fieldset>
+            <br/>
+        <fieldset>
+            <legend>Others</legend>
+            <label for = "pin">Pin: </label>
+            <input type = "password" id = "pin" minlength="4" maxlength="8">
+            <br><br>
+            <label for = "suggestions">Suggestions:</label>
+            <br>
+            <textarea rows ="10" cols="30">Input suggestion here...</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Confirmation</legend>
+            <input type = "checkbox" id = "certify" value = "certified">
+            <label for = "certify">I certify that the data I provided is true and correct.</label>
+        </fieldset>
+        <br>
+        <input type = "button" value = "Submit">
+        </form>
+    </body>
+</html>
