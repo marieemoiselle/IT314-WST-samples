@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+    body{
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        background-color: #faf9f6;
+        color:#0b1215;
+        font-size: 14px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 3px solid #faf9f6;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: #f26b8a;
+        color: #faf9f6;
+    }
+   /* tr:nth-child(even){
+        background-color: #f5f5f5;
+    }*/
+    .course{
+        background-color: #ffe2e9;
+    }
+
+    .course-code{
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .subtitle{
+        letter-spacing: 1.5px;
+        font-style: italic;
+        font-size: 12px;
+    }
+  </style>
+
+<body>
+    <section>
+    <h1 align = "center">CLASS SCHEDULE</h1>
+    <p class = "subtitle" align = "center">FIRST SEMESTER, AY 2024-2025</p>
+    <table>
+        <tr>
+          <th>TIME</th>
+          <th>MONDAY</th>
+          <th>TUESDAY</th>
+          <th>WEDNESDAY</th>
+          <th>THURSDAY</th>
+          <th>FRIDAY</th>
+        </tr>
+        <tr>
+            <td>7:00am - 8:00am</td>
+            <td rowspan = "3" class = "course"><span class = "course-code">CS 211</span><br/>CS 2101<br/>Lab 2</td>
+            <td rowspan = "2" class = "course"><span class = "course-code">CS 121</span><br/>IT 2104<br/>SMART</td>
+            <td rowspan = "2" class = "course"><span class = "course-code">CS 211</span><br/>CS 2101<br/>101</td>
+            <td rowspan = "3" class = "course"><span class = "course-code">IT 314</span><br/>CS 3101<br/>Lab 3</td>
+            <td rowspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>8:00am - 9:00am</td>
+        </tr>
+        <tr>
+            <td>9:00am - 10:00am</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>10:00am - 11:00am</td>
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="3" class = "course"><span class = "course-code">IT 314</span><br/>CS 3103<br/>Lab 3</td>
+            <td rowspan="3" class = "course"><span class = "course-code">CS 121</span><br/>IT 2104<br/>Lab 6</td>
+            <td>&nbsp;</td>
+            <td rowspan="3" class = "course"><span class = "course-code">IT 314</span><br/>CS 3101<br/>Lab 3</td>
+        </tr>
+        <tr>
+            <td>11:00am - 12:00pm</td>
+            <td rowspan="2" class = "course"><span class = "course-code">IT 314</span><br/>CS 3103<br/>103</td>
+        </tr>
+        <tr>
+            <td>12:00pm - 1:00pm</td>
+        </tr>
+        <tr>
+            <td>1:00pm - 2:00pm</td>
+            <td rowspan="2" class = "course"><span class = "course-code">IT 314</span><br/>CS 3102<br/>102</td>
+            <td>&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="2" class = "course"><span class = "course-code">CS 211</span><br/>CS 2102<br/>401</td>
+            <td rowspan="3" class = "course"><span class = "course-code">CS 211</span><br/>CS 2102<br/>Lab 1</td>
+        </tr>
+        <tr>
+            <td>2:00pm - 3:00pm</td>
+            <td rowspan="2" class = "course"><span class = "course-code">IT 314</span><br/>CS 3101<br/>101</td>
+        </tr>
+        <tr>
+            <td>3:00pm - 4:00pm</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+        <h2>F2F and ONLINE Classes</h2>
+        <table>
+            <tr>
+                <th>Mode of Delivery</th>
+                <th>Weeks</th>
+            </tr>
+            <tr>
+                <td>Face-to-Face Classes</td>
+                <td>2, 4, 6, 8, 10, 12, 14, 16, 18</td>     
+            </tr>
+            <tr>
+                <td>Online Classes</td>
+                <td>1, 3, 5, 7, 11, 13, 15</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <footer>
+            <h3>Class codes and descriptions</h3>
+            <ul type = "disc">
+                <li>CS 121: Advanced Computer Programming</li>
+                <li>IT 314: Web Systems and Technologies</li>
+                <li>CS 211: Object-oriented Programming</li>
+            </ul>
+        </footer>
+    </section>
+</body>
+</html>
+  
