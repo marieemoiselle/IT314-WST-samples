@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table and Semantics Demo</title>
+</head>
+<body>
+    <section>
+        <!-- This section is for the heading content -->
+         <header>
+            <h1>Class Schedule</h1>
+         </header>
+    </section>
+
+    <section>
+        <table border = "1px solid black">
+            <!-- First row: Time and Days of the week -->
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <!-- SECOND ROW -->
+            <tr>
+                <td>7:00am - 8:00am</td>
+                <td rowspan = "3">CS 211</td>
+                <td colspan="4">&nbsp;</td>
+            </tr>
+            <!-- THIRD ROW -->
+            <tr>
+                <td>8:00-9:00</td>
+                <td rowspan = "2">IT 331</td>
+            </tr>
+            <!-- FOURTH ROW -->
+            <tr>
+                <td>9:00-10:00</td>
+            </tr>
+            <!-- FIFTH ROW -->
+             <tr>
+                <td>10:00-11:00</td>
+                <td rowspan="2">&nbsp;</td>
+             </tr>
+             <tr>
+                <td>11:00-12:00</td>
+             </tr>
+        </table>
+    </section>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* BASE STYLES */
+
+:root {
+    /*Selects the document's root element*/
+    --clr-dark: #0f172a;
+    --clr-light: #f1f5f9;
+    --clr-accent: #ff00aa;
+    
+}
+
+*,
+*::before, /*inserts something before the content of each selected element(s)*/
+*::after /*inserts something after the content of each selected element(s)*/
+{
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    border: 10px solid var(--clr-dark);
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-evenly;
+    align-content: flex-baseline;*/
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: #fd89c3;
+    padding: 1em;
+    font-weight: 700;
+    color: var(--clr-light);
+    text-align: center;
+    border: 10px solid var(--clr-accent);
+    border-radius: 10px;
+}
+
+.item-3{
+    flex-grow: 1;
+}

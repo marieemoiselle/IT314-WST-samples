@@ -1,0 +1,26 @@
+/*parent properties*/
+
+.container {
+    width: 80%;
+    height: auto;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    border: 10px solid #000000;
+}
+
+/*items inside the flexbox*/
+
+.item{
+    width:100px;
+    height: 100px;
+    background-color: #fd89c3;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    border: 10px solid #fd4692;
+    border-radius: 10px;
+}
