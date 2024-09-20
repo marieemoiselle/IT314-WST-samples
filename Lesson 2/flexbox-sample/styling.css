@@ -31,14 +31,16 @@ body {
 
 
 .container {
-    width: 80%;
-    height: 700px;
+    width: 50%;
+    height: 200px;
     margin: 0 auto;
-    border: 10px solid var(--clr-dark);
+    border: 3px solid var(--clr-dark);
     display: flex;
-    flex-direction: column;
-    /*justify-content: space-evenly;
-    align-content: flex-baseline;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+
 }
 
 .item{
@@ -49,10 +51,10 @@ body {
     font-weight: 700;
     color: var(--clr-light);
     text-align: center;
-    border: 10px solid var(--clr-accent);
+    border: 10px ridge var(--clr-accent);
     border-radius: 10px;
 }
 
-.item-3{
+/*.item-2{
     flex-grow: 1;
-}
+}*/
