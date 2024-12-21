@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Me page of Fatima Marie P. Agdon, including basic info, contact details, and personal interests.">
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>About Me</title>
+</head>
+<body>
+    <header>
+        <div id="greeting"></div> <!-- Dynamic greeting -->
+        <span id="theme-toggle" class="material-symbols-outlined">light_mode</span> <!-- Sun icon -->
+    </header>
+    <div class="flex-container">
+        <div class="flex-child">
+            <span class="material-symbols-outlined">person</span>
+            <h2>Basic Info</h2>
+            <p>Name: Fatima Marie P. Agdon, <abbr title="Master of Science in Computer Science">MSCS</abbr></p>
+            <p>Date of Birth: December 27, 1996</p>
+        </div>
+        <div class="flex-child">
+            <span class="material-symbols-outlined">mail</span>
+            <h2>Contact</h2>
+            <div class="social-icons">
+                <a href="mailto:fatimamarie.agdon@g.batstate-u.edu.ph">
+                    <span class="material-symbols-outlined">mail</span>
+                </a>
+                <a href="https://linkedin.com/fatimamarieagdon" target="_blank">
+                    <span class="material-symbols-outlined">work</span>
+                </a>
+                <a href="https://github.com/marieemoiselle" target="_blank">
+                    <span class="material-symbols-outlined">code</span>
+                </a>
+            </div>
+        </div>
+        <div class="flex-child">
+            <span class="material-symbols-outlined">favorite</span>
+            <h2>Personal Info</h2>
+            <p>Hobbies: Coding, Reading</p>
+            <p>Location: Philippines</p>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Include JavaScript file -->
+</body>
+</html>

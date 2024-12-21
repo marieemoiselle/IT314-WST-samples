@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+#greeting {
+    font-size: 1.5rem;
+}
+
+#theme-toggle {
+    font-size: 36px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+body.dark-theme #theme-toggle {
+    color: #fbc02d; /* Yellow color for moon in dark mode */
+}
+
+#theme-toggle:hover {
+    background: #0056b3;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flex-child {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 calc(30% - 20px);
+    max-width: 300px;
+}
+
+
+.material-symbols-outlined {
+    font-size: 36px;
+    color: #616161;
+    margin-bottom: 10px;
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-theme header {
+    background-color: #222;
+    color: #fff;
+}
+
+body.dark-theme .flex-child {
+    background-color: #444;
+    border-color: #555;
+}
